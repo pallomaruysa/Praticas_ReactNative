@@ -12,7 +12,7 @@ export default function App(){
       <TextInput value={nome} onChangeText = {(nome) => {setNome(nome)}}/>
       <Button title="Mudar nome" onPress={() => {setNome("Testando")}}/>
     </View>
-  );
+  ); 
 }
 
 const styles = StyleSheet.create({
